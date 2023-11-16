@@ -1,0 +1,4 @@
+When it comes to design, I have decided to go with simple, yet modern design.
+On the contrary, I have decided to give more attention to the backend happenings.
+I dedicated more attention to server side things and making sure everything is secure and 
+	properly working behind the scene.

@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	display: inline;
+	text-decoration: none;
+	font-family: lato, sans-serif;
+	font-size: 14px;
+	color: white;
+	padding-right: 10px;
+	position: relative;
+}
+
+a:hover{
+	top: -1px;
+	color: black;
+	transition: ease-in 0.2s;
+}
+
+.home-section{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-image: url("pictures/background-pic4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	position: absolute; /* Sit on top of the page content */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	background-color: rgba(0,0,0,0.20); /* Black background with opacity */
+	}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	width: 100%;
+}
+
+.navbar-left{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.navbar-right{
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.content-container{
+	display: flex;
+	min-width: 100%;
+	min-height: 80%;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.search-bar{
+	max-height: 40px;
+	width: 100%;
+	max-width: 700px;
+	background: rgba(255, 255, 255, 0.2);
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 20px;
+	backdrop-filter: blur(2px) saturate(100%);
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 18px;
+	color: white;
+}
+
+.search-bar button{
+	border: 0;
+	padding-right: 15px;
+	width: 60px;
+	height: 60px;
+	background: transparent;
+	cursor: pointer;
+}
+
+.logo{
+	padding-bottom: 30px;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+	
+}
